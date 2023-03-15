@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+body, html{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "coolvetica", "Roboto", "Arial";
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color: #001021;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 0.7rem 1rem;
+}
+.links ul{
+    display: flex;
+    gap: 1.875rem;
+    list-style: none;
+    color: #E5E7EB;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*first section*/
+
+.first{
+    display: flex;
+    background-color: #001933;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 1.5rem 0;
+    gap: 0.625rem;
+    height: 11rem;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #E5E5E5;
+}
+
+/*latar belakang section*/
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.2rem 0;
+    background-color: #E5E5E5;
+}
+
+.lb-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.lb-desc{
+    width: 65%;
+    font-size: 1.3rem;
+}
+/*steps*/
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 3rem;
+    background-color: #001933;
+}
+
+.steps-content{
+    display: flex;
+    width: 80%;
+    gap: 3rem;
+    padding: 1rem 0;
+}
+
+.steps-desc{
+    width: 650px;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.steps-title{
+    color: #E5E5E5;
+    padding: 0.7rem 0;
+}
+
+.steps-desc p{
+    color: #E5E5E5;
+}
+
+.steps {
+    overflow: hidden;
+    position: relative;
+}
+  
+.steps-bg {
+    opacity: 0.45;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+}
+
+
+.steps-wrcontent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 23px;
+    color: #E5E7EB;
+}
+
+/*prereq*/
+.prereq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prereq-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.prereq-list{
+    width: 50%;
+}
+
+mark{
+    background-color: yellow;
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url("coolvetica.zip");
+}
